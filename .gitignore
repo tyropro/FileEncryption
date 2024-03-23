@@ -1,3 +1,9 @@
+# my exclusions
+key.key
+decrypted/
+encrypted/
+files/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
