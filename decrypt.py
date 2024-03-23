@@ -42,8 +42,8 @@ if input("Is the target a file (Y/n): ").lower() in ("n", "no"):
     with open(join(dir, file_name), 'wb') as f:
       f.write(decrypted)
     
-    remove(join(dir, "encrypted.zip"))
-    rmtree(enc_dir)
+  remove(join(dir, "encrypted.zip"))
+  rmtree(enc_dir)
     
 else:
   file = input("Enter the file path: ")
